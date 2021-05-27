@@ -121,6 +121,27 @@
           }
         }
       }
+    },
+    "react-component": {
+      "root": "libs/react-component",
+      "sourceRoot": "libs/react-component/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/react-component/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/react-component"],
+          "options": {
+            "jestConfig": "libs/react-component/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }

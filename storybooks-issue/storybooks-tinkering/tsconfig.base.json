@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@storybooks-tinkering/react-component": [
+        "libs/react-component/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

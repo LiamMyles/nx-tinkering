@@ -25,6 +25,9 @@
     "issue-e2e": {
       "tags": [],
       "implicitDependencies": ["issue"]
+    },
+    "react-component": {
+      "tags": []
     }
   }
 }
